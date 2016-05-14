@@ -40,5 +40,5 @@ FOO_METHODE:
 Passing a large amount of data through the parameter of the function is not a good idea, as it takes lot of time to copy the data. Specially in our case where only a few data are used in the function.
 
 BAR_METHODE:  
-As the pointer to the data is passed here, there is no data to copy.
+As only the pointer to the data is passed here, there is no data to copy, this is why the time is drastically less than FOO_METHODE.
 
